@@ -1,0 +1,35 @@
+.footerStyle
+{
+    background-color: black
+}
+.copyrightSec
+{
+    text-align: center;
+    background-color: #246F58;
+    padding: 30px;
+}
+.optionalNameSec
+{
+    color:white;
+    background-color:#142c25;
+    padding: 30px;
+}
+.footerImg
+{
+    margin-right: 10px;
+    height:50px;
+}
+.defaultFooterCss
+{
+    position: relative ;
+    /* top: 70vh; */
+    width: 100%;
+    background-color:#246F58;
+    color: white;
+    /* padding-top: 20px; */
+    /* border: 10px solid grey; */
+}
+.upperFooter{
+    padding: 10px;
+}
+ /* position:"Absolute" make it relative */

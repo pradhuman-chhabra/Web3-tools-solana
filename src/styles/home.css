@@ -1,0 +1,109 @@
+.colMarg{
+    margin: 20px 0px;
+    text-align: justify;
+    padding: 40px 120px;
+}
+
+/* .h1Mod{
+  text-align: left;
+  padding: 40px 120px 0px  120px;
+  font-weight: 500;
+  font-size: xx-large;
+} */
+
+.containerH1{
+  text-align: left;
+  padding: 40px 120px 0px  120px;
+  margin-bottom: 5vh;
+  font-weight: 500;
+  font-size: xx-large;
+}
+
+.image-button{
+  /* height: 250px; */
+  border-radius: 10px;
+}
+
+.banner {
+    background-image: url("/public/images/bannerImage.png");
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    height:400px;
+    width:100%;
+    position:relative;
+  }
+
+ 
+  .bannerOverlay {
+    background-image: url("/public/images/bannerimageOverlay.png");
+    background-position: bottom; /* Center the image */
+    background-repeat: repeat-x; /* Do not repeat the image */
+    padding:20px;
+    color:#fff;
+    position:absolute;
+    width:100%;
+    bottom: 0;
+    min-height: 152px;
+  }
+  @media only screen and (max-width: 992px) {
+    .bannerOverlay {
+      margin-right:36px;
+    }
+  }
+  
+  @media only screen and (max-width: 767px) {
+    .bannerOverlay {
+      margin-right:30px;
+    }
+  }
+  
+  @media only screen and (max-width: 575px) {
+    .bannerOverlay {
+      margin-right:12px;
+    }
+  }
+  
+
+  .bannerOverlay h1{
+    font-size: 32px;
+  }
+  
+  .bannerOverlay span{
+    font-size: 14px;
+  }
+  
+  .bannerOverlay p{
+    padding-top:20px;
+    font-size: 18px;
+  }
+  
+  .ptagMaxWidth{
+    max-width: 1320px;
+    text-align: left;
+}
+
+.rowStyle{
+  background-color: #B8B0EC; 
+  padding-top: 10px; 
+  /* margin: 20px 0;  */
+  border-radius: 10px;
+  width: 1320px;/* This property is very useful for making things */
+  margin: auto;
+  margin-top: 20px;/*Jo property nichey likhi ho wohi apply hoti hain*/
+  margin-bottom: 20px;
+  /* border: 1px solid red; */
+}
+
+.rowElements{
+  border-right: 1px solid white;
+}
+
+.textAlign{
+  text-align: left;
+}
+
+
+.borderRadius{
+  border-radius: 25px;
+}

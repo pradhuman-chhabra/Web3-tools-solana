@@ -1,0 +1,22 @@
+.navbarCss{
+    background-color:#246F58;
+    color: white;
+}
+.brandName{
+    color: white;
+}
+.brandImg{    
+    margin-right: 8px;
+    height: 50px;
+}
+.navbar-custom {
+    background-color: lightgreen;
+}
+.navbarMaxWidth{
+    max-width: 1320px;
+}
+.anchorMod{
+    margin:10px;
+    color: white;
+    
+}
